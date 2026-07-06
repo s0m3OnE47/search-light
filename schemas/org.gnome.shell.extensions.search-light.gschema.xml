@@ -17,7 +17,7 @@
         <description>Border thickness.</description>
     </key>
     <key type="(dddd)" name="background-color">
-        <default>(0.,0.,0.,0.25)</default>
+        <default>(0.,0.,0.,0.4)</default>
         <summary>Background color</summary>
         <description>Set window background color.</description>
     </key>
@@ -42,7 +42,7 @@
         <description>Monitors found by the extension.</description>
     </key>
     <key type="as" name="shortcut-search">
-        <default><![CDATA[[]]]></default>
+        <default>['&lt;Super&gt;Space']</default>
         <summary>Shortcut</summary>
         <description>Keyboard shortcut for search</description>
     </key>

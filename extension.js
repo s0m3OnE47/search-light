@@ -611,7 +611,7 @@ export default class SearchLightExt extends Extension {
       //
     }
     if (shortcut == '') {
-      shortcut = '<Control><Super>Space';
+      shortcut = '<Super>Space';
     }
 
     if (!disable) {
@@ -790,7 +790,7 @@ export default class SearchLightExt extends Extension {
   }
 
   _updateCss(disable) {
-    let bg = this.background_color || [0, 0, 0, 0.5];
+    let bg = this.background_color || [0, 0, 0, 0.65];
     if (this.text_color && this.text_color[3] > 0) {
       this.container.remove_style_class_name('light');
     } else {
@@ -808,7 +808,7 @@ export default class SearchLightExt extends Extension {
     }
 
     this._background.visible = true;
-    this._background.opacity = 200;
+    this._background.opacity = 230;
 
     let styles = [];
     {

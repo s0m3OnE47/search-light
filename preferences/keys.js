@@ -30,7 +30,7 @@ export const SettingsKeys = () => {
       widget_type: 'scale',
     },
     'background-color': {
-      default_value: [0, 0, 0, 0.5],
+      default_value: [0, 0, 0, 0.65],
       widget_type: 'color',
     },
     'preferred-monitor': {
@@ -47,7 +47,7 @@ export const SettingsKeys = () => {
       widget_type: 'shortcut',
     },
     'shortcut-search': {
-      default_value: [],
+      default_value: ['<Super>Space'],
       widget_type: 'shortcut',
     },
     'popup-at-cursor-monitor': {
